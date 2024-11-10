@@ -16,7 +16,6 @@ export interface GameQuery {
 }
 
 function App() {
-  /*
   const [gameQuery, setGameQuery] = useState<GameQuery>({} as GameQuery);
 
   return (
@@ -67,7 +66,5 @@ function App() {
       </GridItem>
     </Grid>
   );
-  */
-  return <Counter />;
 }
 export default App;
