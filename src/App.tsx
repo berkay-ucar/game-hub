@@ -6,6 +6,7 @@ import GenreList from "./components/GenreList";
 import NavBar from "./components/NavBar";
 import PlatformSelector from "./components/PlatformSelector";
 import SortSelector from "./components/SortSelector";
+import Counter from "./state-management/Counter";
 
 export interface GameQuery {
   genreId?: number;
@@ -15,6 +16,7 @@ export interface GameQuery {
 }
 
 function App() {
+  /*
   const [gameQuery, setGameQuery] = useState<GameQuery>({} as GameQuery);
 
   return (
@@ -65,5 +67,7 @@ function App() {
       </GridItem>
     </Grid>
   );
+  */
+  return <Counter />;
 }
 export default App;
